@@ -12,7 +12,7 @@ const Home = ({ authorImage }) => {
         {/* Desktop Image Starts */}
         <img
           className="hidden from-lg:block fixed w-1/3 h-[calc(100vh-80px)] left-40 top-40 rounded-30 shadow-1 object-cover"
-          src={authorImage ? authorImage : "assets/img/dark.webp"}
+          src={authorImage ? authorImage : "/assets/img/demo/dark.webp"}
           alt=""
         />
         {/* Desktop Image Ends */}
