@@ -8,21 +8,21 @@ const bio = [
   {
     id: 11,
     data: [
-      { id: 1, type: "First Name", value: "Steve" },
-      { id: 2, type: "Last Name", value: "Milner" },
-      { id: 3, type: "Age", value: "27 Years" },
-      { id: 4, type: "Nationality", value: "Tunisian" },
+      { id: 1, type: "First Name", value: "Dadi" },
+      { id: 2, type: "Last Name", value: "BAHMANE" },
+      { id: 3, type: "Age", value: "45 Years" },
+      { id: 4, type: "Nationality", value: "Algerian" },
       { id: 5, type: "Freelance", value: "Available" },
     ],
   },
   {
     id: 12,
     data: [
-      { id: 6, type: "Address", value: "Tunis" },
-      { id: 7, type: "Phone", value: "+216 21 184 010" },
-      { id: 8, type: "Email", value: "demo@demo.com" },
-      { id: 9, type: "Skype", value: "steve.milner" },
-      { id: 10, type: "Langages", value: "French, English" },
+      { id: 6, type: "Address", value: "Lille" },
+      { id: 7, type: "Phone", value: "+33 778661255" },
+      { id: 8, type: "Email", value: "benmezianedadi@yahoo.fr" },
+      { id: 9, type: "Skype", value: "d.bahmane" },
+      { id: 10, type: "Langages", value: "French, English,Arabic" },
     ],
   },
 ];
@@ -31,78 +31,74 @@ const counters = [
   {
     id: 1,
     title: 'years of <span className="block">experience</span>',
-    value: "12",
+    value: "2",
   },
   {
     id: 2,
     title: 'completed <span className="block">projects</span>',
-    value: "97",
+    value: "14",
   },
   {
     id: 3,
-    title: 'happy <span className="block">customers</span>',
-    value: "81",
+    title: 'happy <span className="block"></span>',
+    value: "",
   },
-  { id: 4, title: 'awards <span className="block">won</span>', value: "53" },
+  { id: 4, title: 'awards <span className="block"></span>', value: "" },
 ];
 
 const experiences = [
   {
     id: 1,
-    date: "2018 - Present",
-    title: "web developer",
-    company: "envato",
-    desc: "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,",
+    date: "2021",
+    title: "Web Development Internship",
+    company: "INSY2S",
+    desc: "",
   },
   {
     id: 2,
-    date: "2013 - 2018",
-    title: "UI/UX Designer",
-    company: "Themeforest",
-    desc: "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,",
+    date: "2011-2018",
+    title: "Mathematics teacher",
+    company: "Academy of Lille",
+    desc: "",
   },
   {
     id: 3,
-    date: "2005 - 2013",
-    title: "consultant",
-    company: "Videohive",
-    desc: "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,",
+    date: "2003-2010",
+    title: "Bio-Statics teacher",
+    company: "Algeria",
+    desc: "",
   },
 ];
 
 const educations = [
   {
     id: 1,
-    date: "2015",
-    title: "Engineer Degree",
-    unv: "Oxford University",
-    desc: "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,",
+    date: "2023",
+    title: "Integrator web",
+    unv: "Openclassroom",
+    desc: "",
   },
   {
     id: 2,
-    date: "2012",
-    title: "Master Degree",
-    unv: "Kiev University",
-    desc: "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,",
+    date: "2022",
+    title: "Qualified Tester ISTQB",
+    unv: "M2i formation",
+    desc: "",
   },
   {
     id: 3,
-    date: "2009",
-    title: "Bachelor Degree",
-    unv: "Tunis High School",
-    desc: "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,",
+    date: "2021",
+    title: "Developper java j2ee",
+    unv: "afpa de Roubaix",
+    desc: "",
   },
 ];
 
 const skills = [
-  { id: 1, name: "html", value: "25" },
+  { id: 1, name: "html", value: "90" },
   { id: 2, name: "javascript", value: "89" },
-  { id: 3, name: "css", value: "70" },
-  { id: 4, name: "php", value: "66" },
-  { id: 5, name: "wordpress", value: "95" },
-  { id: 6, name: "jquery", value: "50" },
-  { id: 7, name: "angular", value: "65" },
-  { id: 8, name: "react", value: "45" },
+  { id: 3, name: "css", value: "90" },
+  { id: 4, name: "react", value: "65" },
 ];
 
 const About = () => {
@@ -112,7 +108,7 @@ const About = () => {
       <div className="w-full">
         {/* Section Title Starts */}
         <SectionTitle
-          bigTitle={"resume"}
+        //  bigTitle={"resume"}
           colorTitle={"me"}
           normalTitle={"about"}
         />
