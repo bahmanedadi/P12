@@ -38,12 +38,7 @@ const counters = [
     title: 'completed <span className="block">projects</span>',
     value: "14",
   },
-  {
-    id: 3,
-    title: 'happy <span className="block"></span>',
-    value: "",
-  },
-  { id: 4, title: 'awards <span className="block"></span>', value: "" },
+ 
 ];
 
 const experiences = [
@@ -95,10 +90,14 @@ const educations = [
 ];
 
 const skills = [
-  { id: 1, name: "html", value: "90" },
-  { id: 2, name: "javascript", value: "89" },
-  { id: 3, name: "css", value: "90" },
-  { id: 4, name: "react", value: "65" },
+  { id: 1, name: "html", img: "/assets/technologyIcons/html-min.webp" },
+  { id: 2, name: "javascript", img: "/assets/technologyIcons/js-min.webp" },
+  { id: 3, name: "sass", img: "/assets/technologyIcons/sass-min.webp" },
+  { id: 4, name: "React", img: "/assets/technologyIcons/react-min.webp" },
+  { id: 5, name: "Redux", img: "/assets/technologyIcons/redux-min.webp" },
+  { id: 6, name: "bootstrap", img: "/assets/technologyIcons/bootstrap-min.webp" }, 
+  { id: 7, name: "mongodb", img: "/assets/technologyIcons/mongodb-min.webp" },
+  { id: 8, name: "SEO", img: "/assets/technologyIcons/seo-min.webp" },
 ];
 
 const About = () => {
@@ -206,12 +205,10 @@ const About = () => {
                   }`}
                 >
                   <span className={dark ? "" : "!text-black-6"}>
-                    {skill.value}%
+                    {skill.value}
+                    <img className="iconeSkills"src={skill.img} alt="Skill Image"/>
                   </span>
-                  <div className="slice">
-                    <div className="bar" />
-                    <div className="fill" />
-                  </div>
+                 
                 </div>
                 <h6 className="uppercase font-Open-sans text-center mt-24 xs:mt-8">
                   {skill.name}
