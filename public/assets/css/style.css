@@ -694,7 +694,7 @@ video {
 }
 
 .left-40 {
-  left:380px;
+  left: 40px;
 }
 
 .left-50 {
@@ -777,7 +777,9 @@ video {
   top: 30px;
 }
 
-
+.top-40 {
+  top: 0px;
+}
 
 .top-5 {
   top: 5px;
@@ -1207,7 +1209,12 @@ video {
   width: 50%;
 }
 
-
+.w-1\/3 {
+  width: 33.333333%;
+}
+.w-1\/3-photo{
+  width: 10%;
+}
 
 .w-1\/4 {
   width: 25%;
@@ -1533,7 +1540,7 @@ video {
 }
 
 .rounded-30 {
-  border-radius: 10px;
+  border-radius: 30px;
 }
 
 .rounded-4 {
@@ -2160,7 +2167,7 @@ video {
 }
 
 .text-fs-26 {
-  font-size: 41px;
+  font-size: 26px;
 }
 
 .text-fs-33 {
@@ -2184,11 +2191,11 @@ video {
 }
 
 .text-fs-56 {
-  font-size: 41px;
+  font-size: 56px;
 }
 
 .font-black {
-  font-weight: 600;
+  font-weight: 900;
 }
 
 .font-bold {

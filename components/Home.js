@@ -11,10 +11,11 @@ const Home = ({ authorImage }) => {
       <div className="flex items-center h-screen w-full down-lg:mx-auto down-lg:justify-center xs:text-left down-lg:text-center ">
         {/* Desktop Image Starts */}
         <img
-          className="hidden from-lg:block fixed w-1/3 h-[calc(100vh-80px)] left-40 top-40 rounded-30 shadow-1 object-cover"
+          className="hidden from-lg:block fixed h-[calc(100vh-80px)] left-40  rounded-30 shadow-1 object-cover my-custom-class"
           src={authorImage ? authorImage : "/assets/img/demo/dark.webp"}
           alt=""
         />
+
         {/* Desktop Image Ends */}
         <div className="from-lg:ml-100/3 from-lg:w-2/3">
           <div className="mx-auto max-w-550 custom-md-1:max-w-450">
@@ -33,8 +34,8 @@ const Home = ({ authorImage }) => {
               </span>
             </h1>
             <p className="font-Open-sans mt-15 mb-28 leading-lh-35 down-lg:mt-2.5 down-lg:mb-23 down-lg:text-fs-15 down-lg:leading-lh-30">
-            Curieuse et passionnée par les nouvelles technologies ,je cherche incessamment à améliorer mes compétences. Je suis arrivée au développements web qui est devenu ma passion .J'ai obtenu un diplôme en intégration web de niveau Bac+2  .
-Je suis toujours enthousiaste à l'idée d'apprendre et de découvrir de nouvelles opportunités dans le domaine du développement web.
+              Curieuse et passionnée par les nouvelles technologies ,je cherche incessamment à améliorer mes compétences. Je suis arrivée au développements web qui est devenu ma passion .J'ai obtenu un diplôme en intégration web de niveau Bac+2  .
+              Je suis toujours enthousiaste à l'idée d'apprendre et de découvrir de nouvelles opportunités dans le domaine du développement web.
             </p>
             <div
               id="link-about"
@@ -42,11 +43,10 @@ Je suis toujours enthousiaste à l'idée d'apprendre et de découvrir de nouvell
               onClick={() => changeNav("about")}
             >
               <span
-                className={`relative z-20 ${
-                  dark
+                className={`relative z-20 ${dark
                     ? "text-white"
                     : "text-black-6 group-hover:text-white transition-all duration-300"
-                }`}
+                  }`}
               >
                 more about me
               </span>

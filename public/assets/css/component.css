@@ -931,3 +931,8 @@ body {
 		padding: 17px 0 0 13px;
 	}
   }
+/*** ajuster la taille de l'image ***/
+.my-custom-class{
+	width: 20%;
+	
+}
