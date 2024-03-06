@@ -50,7 +50,7 @@ const items = [
     project: "Website",
     client: "Envato",
     langages: "React,sass",
-    previewLink: "https://github.com/bahmanedadi/Projet8_kasa",
+    previewLink:" https://stellular-scone-183746.netlify.app/",
     description:"Kasa est une application dédiée à la location d'appartements entre particuliers en France",
   },
   {

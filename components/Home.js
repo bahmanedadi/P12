@@ -21,7 +21,7 @@ const Home = ({ authorImage }) => {
           <div className="mx-auto max-w-550 custom-md-1:max-w-450">
             {/* Mobile Image Starts */}
             <img
-              src="assets/img/dark-img-mobile.jpg"
+              src="/assets/img/dark-mobile.webp"
               className="hidden down-lg:block xs:!hidden rounded-full w-270 h-270 mx-auto mb-25 border-4 border-solid border-black-3"
               alt="my picture"
             />

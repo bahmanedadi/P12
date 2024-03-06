@@ -5,7 +5,7 @@
 .text-accent-hover:hover,
 #menuToggle .active,
 #menu li.active a {
-  color: #9acd32;
+  color:rgb(151, 175, 146);
 }
 .bg-accent,
 .bg-accent-hover:hover,
@@ -16,19 +16,19 @@ h1:before,
 .header ul.icon-menu li.desktop-nav-element:hover,
 .header .desktop-nav-element h2,
 .button:before {
-  background-color: #9acd32;
+  background-color: rgb(151, 175, 146);
 }
 .revealer__layer:nth-child(2) {
-  background: #9acd32 !important;
+  background: rgb(151, 175, 146)!important;
 }
 #contact input[type="text"]:focus,
 #contact input[type="email"]:focus,
 #contact textarea:focus,
 .button {
-  border: 1px solid #9acd32;
+  border: 1px solid rgb(151, 175, 146);
 }
 .post-thumb {
-  border-bottom: 5px solid #9acd32;
+  border-bottom: 5px solid rgb(151, 175, 146);
 }
 .pie,
 .c100 .bar,
@@ -82,14 +82,14 @@ h1:before,
 .c100.p98 .fill,
 .c100.p99 .fill,
 .c100.p100 .fill {
-  border: 0.08em solid #9acd32;
+  border: 0.08em solid rgb(151, 175, 146);
 }
 .cursor-inner {
-  background-color: #9acd32;
+  background-color:rgb(151, 175, 146);
 }
 .cursor-inner.cursor-hover {
-  background-color: #9acd32;
+  background-color:rgb(151, 175, 146);
 }
 .cursor-outer {
-  border: 2px solid #9acd32;
+  border: 2px solid rgb(151, 175, 146);
 }

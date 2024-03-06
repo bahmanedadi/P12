@@ -192,31 +192,7 @@ const About = () => {
           <h3 className="uppercase text-fs-26 xs:text-fs-21 pb-48 text-white font-semibold text-center">
             my skills
           </h3>
-          {/* Skills Starts */}
-          <div className="flex w-full flex-wrap">
-            {skills.map((skill) => (
-              <div
-                className="w-1/4 mb-48 down-sm:w-1/2 xs:mb-16"
-                key={skill.id}
-              >
-                <div
-                  className={`c100 p${skill.value} float-none mx-auto ${
-                    dark ? "bg-black-3" : "bg-light-grey after:!bg-white"
-                  }`}
-                >
-                  <span className={dark ? "" : "!text-black-6"}>
-                    {skill.value}
-                    <img className="iconeSkills"src={skill.img} alt="Skill Image"/>
-                  </span>
-                 
-                </div>
-                <h6 className="uppercase font-Open-sans text-center mt-24 xs:mt-8">
-                  {skill.name}
-                </h6>
-              </div>
-            ))}
-          </div>
-          {/* Skills Ends */}
+        
           <hr
             className={`border-t border-solid border-t-${
               dark ? "black-3" : "grey"
