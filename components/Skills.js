@@ -13,6 +13,10 @@ const skills = [
     { id: 6, name: "bootstrap", img: "/assets/technologyIcons/bootstrap-min.webp" },
     { id: 7, name: "mongodb", img: "/assets/technologyIcons/mongodb-min.webp" },
     { id: 8, name: "SEO", img: "/assets/technologyIcons/seo-min.webp" },
+    { id: 9, name: "Git", img: "/assets/technologyIcons/git-min.webp" },
+    { id: 10, name: "Tailwind", img: "/assets/technologyIcons/Tailwind.webp" },
+    { id: 11, name: "Slack", img: "/assets/technologyIcons/slack-min.webp" },
+    { id: 12, name: "NodeJs", img: "/assets/technologyIcons/nodejs-min.webp" },
 ];
 
 const Skills = () => {

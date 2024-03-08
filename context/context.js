@@ -20,7 +20,7 @@ const { NAV, TOGGLE, COLOR, POPUP, DIRECTION, DARK } = type;
 const initialState = {
   nav: "home",
   toggle: false,
-  color: "green",
+  color: "goldenrod",
   direction: "top",
   popup: null,
   dark: true,
@@ -108,7 +108,7 @@ const TunisState = ({ children }) => {
     });
   }, []);
 
-  const { nav, toggle, color, direction, popup, blogs, dark } = state;
+  const { nav, toggle, color, direction, popup,  dark } = state;
   return (
     <TunisContext.Provider
       value={{
@@ -121,7 +121,6 @@ const TunisState = ({ children }) => {
         changeDirection,
         popupToggle,
         popup,
-        blogs,
         dark,
         darkToggle,
       }}

@@ -89,16 +89,7 @@ const educations = [
   },
 ];
 
-const skills = [
-  { id: 1, name: "html", img: "/assets/technologyIcons/html-min.webp" },
-  { id: 2, name: "javascript", img: "/assets/technologyIcons/js-min.webp" },
-  { id: 3, name: "sass", img: "/assets/technologyIcons/sass-min.webp" },
-  { id: 4, name: "React", img: "/assets/technologyIcons/react-min.webp" },
-  { id: 5, name: "Redux", img: "/assets/technologyIcons/redux-min.webp" },
-  { id: 6, name: "bootstrap", img: "/assets/technologyIcons/bootstrap-min.webp" }, 
-  { id: 7, name: "mongodb", img: "/assets/technologyIcons/mongodb-min.webp" },
-  { id: 8, name: "SEO", img: "/assets/technologyIcons/seo-min.webp" },
-];
+
 
 const About = () => {
   const { dark } = useContext(TunisContext);
@@ -184,21 +175,10 @@ const About = () => {
             </div>
             {/* Facts Ends */}
           </div>
-          <hr
-            className={`border-t border-solid border-t-${
-              dark ? "black-3" : "grey"
-            } mx-auto max-w-40prcent mt-70 mb-55`}
-          />
-          <h3 className="uppercase text-fs-26 xs:text-fs-21 pb-48 text-white font-semibold text-center">
-            my skills
-          </h3>
         
-          <hr
-            className={`border-t border-solid border-t-${
-              dark ? "black-3" : "grey"
-            } mx-auto max-w-40prcent mt-35 mb-55`}
-          />
-          <h3 className="uppercase text-fs-26 xs:text-fs-21 pb-48 text-white font-semibold text-center">
+               
+         
+          <h3 className="uppercase text-fs-26 xs:text-fs-21 text-white font-semibold text-center">
             experience &amp; education
           </h3>
           {/* Resume Starts */}

@@ -74,7 +74,7 @@ const Contact = () => {
       <div className="w-full">
         {/* Section Title Starts */}
         <SectionTitle
-        //  bigTitle={"contact"}
+          //  bigTitle={"contact"}
           colorTitle={"touch"}
           normalTitle={"get in"}
         />
@@ -84,12 +84,12 @@ const Contact = () => {
             {/* Contact Details Starts */}
             <div className="w-1/3 down-lg:w-full px-16 xs:px-0">
               <h3 className="text-fs-26 xs:text-fs-21 mb-16 font-semibold uppercase">
-                don't be shy !
+                "N'hésitez pas !
               </h3>
               <p className="mb-16 font-Open-sans text-fs-15 xs:text-fs-14">
-                Feel free to get in touch with me. I am always open to
-                discussing new projects, creative ideas or opportunities to be
-                part of your visions.
+                N'hésitez pas à me contacter.
+                Je suis toujours ouvert à discuter de nouveaux projets,
+                d'idées créatives ou d'opportunités pour participer à vos visions."
               </p>
               <div className="relative font-Open-sans font-semibold pl-50 pt-5 leading-lh-21 text-fs-15 xs:text-fs-14 mb-16">
                 <i className="fa fa-envelope-open absolute left-0 top-10 text-fs-33 text-accent" />
@@ -110,11 +110,9 @@ const Contact = () => {
                   <li key={social.id} className="inline-block">
                     <a
                       href="#"
-                      className={`social-item inline-block h-40 w-40 leading-lh-42 text-center text-${
-                        dark ? "white" : "black-6"
-                      } transition duration-300 text-fs-17 mx-6 bg-${
-                        dark ? "black-2" : "light-grey hover:text-white"
-                      } rounded-full`}
+                      className={`social-item inline-block h-40 w-40 leading-lh-42 text-center text-${dark ? "white" : "black-6"
+                        } transition duration-300 text-fs-17 mx-6 bg-${dark ? "black-2" : "light-grey hover:text-white"
+                        } rounded-full`}
                     >
                       <i className={social.icon} />
                     </a>
@@ -134,13 +132,10 @@ const Contact = () => {
                   <div className="from-sm:w-1/3 down-sm:w-full px-16 xs:px-0">
                     <input
                       autoComplete="off"
-                      className={`w-full ${
-                        dark ? "bg-black-3" : ""
-                      } text-fs-15 text-${
-                        dark ? "white" : "black-6"
-                      } border border-solid border-${
-                        dark ? "black" : "grey"
-                      } py-11 px-26 mb-30 rounded-30 outline-0 transition duration-300 placeholder:text-placeholder field-form`}
+                      className={`w-full ${dark ? "bg-black-3" : ""
+                        } text-fs-15 text-${dark ? "white" : "black-6"
+                        } border border-solid border-${dark ? "black" : "grey"
+                        } py-11 px-26 mb-30 rounded-30 outline-0 transition duration-300 placeholder:text-placeholder field-form`}
                       type="text"
                       name="name"
                       onChange={(e) => onChange(e)}
@@ -151,13 +146,10 @@ const Contact = () => {
                   <div className="from-sm:w-1/3 down-sm:w-full px-16 xs:px-0">
                     <input
                       autoComplete="off"
-                      className={`w-full ${
-                        dark ? "bg-black-3" : ""
-                      } text-fs-15 text-${
-                        dark ? "white" : "black-6"
-                      } border border-solid border-${
-                        dark ? "black" : "grey"
-                      } py-11 px-26 mb-30 rounded-30 outline-0 transition duration-300 placeholder:text-placeholder field-form`}
+                      className={`w-full ${dark ? "bg-black-3" : ""
+                        } text-fs-15 text-${dark ? "white" : "black-6"
+                        } border border-solid border-${dark ? "black" : "grey"
+                        } py-11 px-26 mb-30 rounded-30 outline-0 transition duration-300 placeholder:text-placeholder field-form`}
                       type="email"
                       name="email"
                       onChange={(e) => onChange(e)}
@@ -168,13 +160,10 @@ const Contact = () => {
                   <div className="from-sm:w-1/3 down-sm:w-full px-16 xs:px-0">
                     <input
                       autoComplete="off"
-                      className={`w-full ${
-                        dark ? "bg-black-3" : ""
-                      } text-fs-15 text-${
-                        dark ? "white" : "black-6"
-                      } border border-solid border-${
-                        dark ? "black" : "grey"
-                      } py-11 px-26 mb-30 rounded-30 outline-0 transition duration-300 placeholder:text-placeholder field-form`}
+                      className={`w-full ${dark ? "bg-black-3" : ""
+                        } text-fs-15 text-${dark ? "white" : "black-6"
+                        } border border-solid border-${dark ? "black" : "grey"
+                        } py-11 px-26 mb-30 rounded-30 outline-0 transition duration-300 placeholder:text-placeholder field-form`}
                       type="text"
                       name="subject"
                       onChange={(e) => onChange(e)}
@@ -184,13 +173,10 @@ const Contact = () => {
                   </div>
                   <div className="w-full px-16 xs:px-0">
                     <textarea
-                      className={`w-full ${
-                        dark ? "bg-black-3" : ""
-                      } text-fs-15 text-${
-                        dark ? "white" : "black-6"
-                      } border border-solid border-${
-                        dark ? "black" : "grey"
-                      } h-160 py-11 px-26 rounded-30 outline-0 transition duration-300 placeholder:text-placeholder field-form`}
+                      className={`w-full ${dark ? "bg-black-3" : ""
+                        } text-fs-15 text-${dark ? "white" : "black-6"
+                        } border border-solid border-${dark ? "black" : "grey"
+                        } h-160 py-11 px-26 rounded-30 outline-0 transition duration-300 placeholder:text-placeholder field-form`}
                       placeholder="YOUR MESSAGE"
                       defaultValue={""}
                       name="message"
@@ -208,11 +194,10 @@ const Contact = () => {
                       }}
                     >
                       <span
-                        className={`relative z-20 ${
-                          dark
+                        className={`relative z-20 ${dark
                             ? "text-white"
                             : "text-black-6 group-hover:text-white transition-all duration-300"
-                        }`}
+                          }`}
                       >
                         send message
                       </span>
