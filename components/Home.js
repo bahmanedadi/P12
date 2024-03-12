@@ -28,13 +28,13 @@ const Home = ({ authorImage }) => {
             {/* Mobile Image Ends */}
             {/* Informations Starts */}
             <h1 className="text-fs-51 text-accent font-Poppins relative uppercase font-bold leading-lh-62 pl-70 before:absolute before:left-0 before:top-29 before:h-4 before:w-40 before:rounded-10 custom-md-2:text-fs-42 down-xl:before:hidden down-xl:pl-0 custom-md-2:leading-lh-52 down-md:text-fs-38 down-md:leading-lh-48 down-md:mt-29 down-md:mb-13 xs:text-fs-29 xs:leading-lh-39 xs:mt-18">
-              I'm Dadi BAHMANE
+             Dadi BAHMANE
               <span className={`block ${dark ? "text-white" : "text-black-6"}`}>
                 Integrateur web
               </span>
             </h1>
             <p className="font-Open-sans mt-15 mb-28 leading-lh-35 down-lg:mt-2.5 down-lg:mb-23 down-lg:text-fs-15 down-lg:leading-lh-30">
-              Curieuse et passionnée par les nouvelles technologies ,je cherche incessamment à améliorer mes compétences. Je suis arrivée au développements web qui est devenu ma passion .J'ai obtenu un diplôme en intégration web de niveau Bac+2  .
+              Curieuse et passionnée par les nouvelles technologies ,je cherche incessamment à améliorer mes compétences. Je suis arrivée au développements web qui est devenu ma passion .
               Je suis toujours enthousiaste à l'idée d'apprendre et de découvrir de nouvelles opportunités dans le domaine du développement web.
             </p>
             <div
