@@ -14,7 +14,7 @@ const items = [
     project: "Website",
     client: "Agence de voyage Booki",
     langages: "HTML, CSS",
-    previewLink: "",
+    previewLink: "https://github.com/bahmanedadi/Projet3_Booki",
     description:"Il s'agit d'un site web qui offre la possibilité de réserver un hôtel tout en permettant aux utilisateurs de découvrir les différentes activités disponibles dans la région",
   },
   {

@@ -175,8 +175,7 @@ const About = () => {
             </div>
             {/* Facts Ends */}
           </div>
-        
-               
+                   
          
           <h3 className="uppercase text-fs-26 xs:text-fs-21 text-white font-semibold text-center">
             experience &amp; education

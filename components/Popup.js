@@ -13,7 +13,7 @@ const Popup = () => {
           >
             {/* Project Details Starts */}
             <figcaption className="mb-15">
-              <h3 className="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33">
+              <h3 className="uppercase leading-lh-1.2  pt-10 pb-28 font-bold text-center text-fs-33">
                 {popup.title}
               </h3>
               <p className=" pt-10 pb-28 font-bold ">{popup.description}  </p>
@@ -39,7 +39,7 @@ const Popup = () => {
                   <span className="project-label">Preview </span>:{" "}
                   <span className="font-semibold">
                     <a
-                      className="underline text-accent"
+                      className="underline "
                       href={popup.previewLink}
                       target="_blank"
                     >
