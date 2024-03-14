@@ -26,7 +26,7 @@ const items = [
     project: "Website",
     client: "Envato",
     langages: "HTML, Sass",
-    previewLink: "https://github.com/bahmanedadi/Projet3_OhMyfood",
+    previewLink: "https://bahmanedadi.github.io/Projet3_OhMyfood/",
     description:"Il s'agit d'un site web dédié aux restaurants gastronomiques, où les clients ont la possibilité de composer leur propre menu avant leur arrivée.",
   },
   {
