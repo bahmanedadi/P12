@@ -18,23 +18,12 @@ const Page = () => {
 
   return (
     <TunisLayout>
-      {/* Main Content Starts */}
       <div className="w-full h-full pages overflow-hidden">
-        {/* Home Starts */}
         <Home authorImage={"assets/img/light.jpg"} />
-        {/* Home Ends */}
-        {/* About Starts */}
         <About />
-        {/* About Ends */}
-         {/* Skills Starts */}
-         <Skills />
-        {/* Skills Ends */}
-        {/* Portfolio Starts */}
+        <Skills />
         <Portfolio />
-        {/* Portfolio Ends */}
-        {/* Contact Starts */}
         <Contact />
-        {/* Contact Ends */}
       </div>
       <Revealer />
     </TunisLayout>

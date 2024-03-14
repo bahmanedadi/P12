@@ -10,19 +10,16 @@ const bio = [
     data: [
       { id: 1, type: "First Name", value: "Dadi" },
       { id: 2, type: "Last Name", value: "BAHMANE" },
-      { id: 3, type: "Age", value: "45 Years" },
-      { id: 4, type: "Nationality", value: "Algerian" },
-      { id: 5, type: "Freelance", value: "Available" },
+      { id: 3, type: "Freelance", value: "Available" },
     ],
   },
   {
     id: 12,
     data: [
-      { id: 6, type: "Address", value: "Lille" },
-      { id: 7, type: "Phone", value: "+33 778661255" },
-      { id: 8, type: "Email", value: "benmezianedadi@yahoo.fr" },
-      { id: 9, type: "Skype", value: "d.bahmane" },
-      { id: 10, type: "Langages", value: "French, English,Arabic" },
+      { id: 4, type: "Address", value: "Lille" },
+      { id: 5, type: "Phone", value: "+33 778661255" },
+      { id: 6, type: "Email", value: "benmezianedadi@yahoo.fr" },
+      
     ],
   },
 ];
@@ -38,7 +35,7 @@ const counters = [
     title: 'completed <span className="block">projects</span>',
     value: "14",
   },
- 
+
 ];
 
 const experiences = [
@@ -98,7 +95,7 @@ const About = () => {
       <div className="w-full">
         {/* Section Title Starts */}
         <SectionTitle
-        //  bigTitle={"resume"}
+          //  bigTitle={"resume"}
           colorTitle={"me"}
           normalTitle={"about"}
         />
@@ -137,11 +134,10 @@ const About = () => {
                 href="/assets/dadi_bahmane.pdf"
               >
                 <span
-                  className={`relative z-20 text-${
-                    dark
-                      ? "white"
-                      : "black-6 group-hover:text-white transition-all duration-300"
-                  }`}
+                  className={`relative z-20 text-${dark
+                    ? "white"
+                    : "black-6 group-hover:text-white transition-all duration-300"
+                    }`}
                 >
                   download cv
                 </span>
@@ -155,9 +151,8 @@ const About = () => {
                 {counters.map((counter) => (
                   <div className="w-1/2 px-15" key={counter.id}>
                     <div
-                      className={`pt-20 xs:pt-15 pr-30 xs:pr-20 pb-25 xs:pb-20 pl-40 xs:pl-25 border border-${
-                        dark ? "black-3" : "grey"
-                      } rounded-5 mb-30 xs:mb-25`}
+                      className={`pt-20 xs:pt-15 pr-30 xs:pr-20 pb-25 xs:pb-20 pl-40 xs:pl-25 border border-${dark ? "black-3" : "grey"
+                        } rounded-5 mb-30 xs:mb-25`}
                     >
                       <h3 className="relative inline-block font-bold text-fs-50 xs:text-fs-40 text-accent leading-lh-1.2 after:content-['+'] after:absolute after:-right-24 after:text-fs-33 after:font-light after:top-2">
                         {counter.value}
@@ -175,8 +170,8 @@ const About = () => {
             </div>
             {/* Facts Ends */}
           </div>
-                   
-         
+
+
           <h3 className="uppercase text-fs-26 xs:text-fs-21 text-white font-semibold text-center">
             experience &amp; education
           </h3>
@@ -188,36 +183,31 @@ const About = () => {
                 {experiences.map((experience) => (
                   <li
                     key={experience.id}
-                    className={`relative pr-20 pl-60 mb-50 after:absolute after:top-0 after:left-20 after:bg-${
-                      dark ? "black-4" : "grey"
-                    } after:w-1 after:h-full`}
+                    className={`relative pr-20 pl-60 mb-50 after:absolute after:top-0 after:left-20 after:bg-${dark ? "black-4" : "grey"
+                      } after:w-1 after:h-full`}
                   >
                     <div className="bg-accent w-40 h-40 absolute left-0 leading-lh-40 text-center z-10 rounded-full text-white">
                       <i className="fa fa-briefcase"></i>
                     </div>
                     <span
-                      className={`text-${
-                        dark ? "white" : "black-6"
-                      } text-fs-12 py-1 px-10 inline-block mb-12 rounded-20 font-semibold bg-${
-                        dark ? "black-3" : "light-grey"
-                      } opacity-80 font-Open-sans uppercase`}
+                      className={`text-${dark ? "white" : "black-6"
+                        } text-fs-12 py-1 px-10 inline-block mb-12 rounded-20 font-semibold bg-${dark ? "black-3" : "light-grey"
+                        } opacity-80 font-Open-sans uppercase`}
                     >
                       {experience.date}
                     </span>
                     <h5 className="uppercase text-fs-18 mt-7 mb-10">
                       {experience.title}
                       <span
-                        className={`opacity-80 font-semibold text-fs-15 relative pl-26 font-Open-sans before:absolute before:w-10 before:h-2 before:bg-${
-                          dark ? "white" : "black-6"
-                        } before:left-7 before:top-9 before:opacity-80`}
+                        className={`opacity-80 font-semibold text-fs-15 relative pl-26 font-Open-sans before:absolute before:w-10 before:h-2 before:bg-${dark ? "white" : "black-6"
+                          } before:left-7 before:top-9 before:opacity-80`}
                       >
                         {experience.company}
                       </span>
                     </h5>
                     <p
-                      className={`font-Open-sans ${
-                        dark ? "text-light-grey" : ""
-                      } text-fs-14`}
+                      className={`font-Open-sans ${dark ? "text-light-grey" : ""
+                        } text-fs-14`}
                     >
                       {experience.desc}
                     </p>
@@ -232,36 +222,31 @@ const About = () => {
                 {educations.map((education) => (
                   <li
                     key={education.id}
-                    className={`relative pr-20 pl-60 mb-50 after:absolute after:top-0 after:left-20 after:bg-${
-                      dark ? "black-4" : "grey"
-                    } after:w-1 after:h-full`}
+                    className={`relative pr-20 pl-60 mb-50 after:absolute after:top-0 after:left-20 after:bg-${dark ? "black-4" : "grey"
+                      } after:w-1 after:h-full`}
                   >
                     <div className="bg-accent w-40 h-40 absolute left-0 leading-lh-40 text-center z-10 rounded-full text-white">
                       <i className="fa fa-graduation-cap"></i>
                     </div>
                     <span
-                      className={`text-${
-                        dark ? "white" : "black-6"
-                      } text-fs-12 py-1 px-10 inline-block mb-12 rounded-20 font-semibold bg-${
-                        dark ? "black-3" : "light-grey"
-                      } opacity-80 font-Open-sans uppercase`}
+                      className={`text-${dark ? "white" : "black-6"
+                        } text-fs-12 py-1 px-10 inline-block mb-12 rounded-20 font-semibold bg-${dark ? "black-3" : "light-grey"
+                        } opacity-80 font-Open-sans uppercase`}
                     >
                       {education.date}
                     </span>
                     <h5 className="uppercase text-fs-18 mt-7 mb-10">
                       {education.title}
                       <span
-                        className={`opacity-80 font-semibold text-fs-15 relative pl-26 font-Open-sans before:absolute before:w-10 before:h-2 before:bg-${
-                          dark ? "white" : "black-6"
-                        } before:left-7 before:top-9 before:opacity-80`}
+                        className={`opacity-80 font-semibold text-fs-15 relative pl-26 font-Open-sans before:absolute before:w-10 before:h-2 before:bg-${dark ? "white" : "black-6"
+                          } before:left-7 before:top-9 before:opacity-80`}
                       >
                         {education.unv}
                       </span>
                     </h5>
                     <p
-                      className={`font-Open-sans ${
-                        dark ? "text-light-grey" : ""
-                      } text-fs-14`}
+                      className={`font-Open-sans ${dark ? "text-light-grey" : ""
+                        } text-fs-14`}
                     >
                       {education.desc}
                     </p>

@@ -6,10 +6,10 @@ import { useContext, useState } from "react";
 import SectionTitle from "./SectionTitle";
 
 const socials = [
-  { id: 1, icon: "fa fa-facebook", link: "#" },
-  { id: 2, icon: "fa fa-twitter", link: "#" },
-  { id: 3, icon: "fa fa-youtube", link: "#" },
-  { id: 4, icon: "fa fa-dribbble", link: "#" },
+  { id: 1, icon: "fa fa-linkedin", link: "https://www.linkedin.com/in/dadi-ben-meziane-b1a8972b5/" },
+  { id: 2, icon: "fa fa-twitter" },
+  { id: 3, icon: "fa fa-youtube" },
+  { id: 4, icon: "fa fa-dribbble" },
 ];
 
 const Contact = () => {
