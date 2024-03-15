@@ -84,12 +84,12 @@ const Contact = () => {
             {/* Contact Details Starts */}
             <div className="w-1/3 down-lg:w-full px-16 xs:px-0">
               <h3 className="text-fs-26 xs:text-fs-21 mb-16 font-semibold uppercase">
-                "N'hésitez pas !
+                N'hésitez pas !
               </h3>
               <p className="mb-16 font-Open-sans text-fs-15 xs:text-fs-14">
                 N'hésitez pas à me contacter.
                 Je suis toujours ouvert à discuter de nouveaux projets,
-                d'idées créatives ou d'opportunités pour participer à vos visions."
+                d'idées créatives ou d'opportunités pour participer à vos visions.
               </p>
               <div className="relative font-Open-sans font-semibold pl-50 pt-5 leading-lh-21 text-fs-15 xs:text-fs-14 mb-16">
                 <i className="fa fa-envelope-open absolute left-0 top-10 text-fs-33 text-accent" />

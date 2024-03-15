@@ -9,23 +9,13 @@ import TunisLayout from "@/layouts/TunisLayout";
 const Page = () => {
   return (
     <TunisLayout>
-      {/* Main Content Starts */}
+
       <div className="w-full h-full pages overflow-hidden">
-        {/* Home Starts */}
         <Home />
-        {/* Home Ends */}
-        {/* About Starts */}
         <About />
-        {/* About Ends */}
-        {/* Skills Starts */}
         <Skills />
-        {/* Skills Ends */}
-        {/* Portfolio Starts */}
         <Portfolio />
-        {/* Portfolio Ends */}
-        {/* Contact Starts */}
         <Contact />
-        {/* Contact Ends */}
       </div>
       <Revealer />
     </TunisLayout>
