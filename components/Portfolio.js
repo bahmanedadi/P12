@@ -62,7 +62,7 @@ const items = [
     project: "Website",
     client: "Nina Carducci",
     langages: "HTML, CSS,Javascript,SEO",
-    previewLink: "https://github.com/bahmanedadi/ninacarducci",
+    previewLink: "https://bahmanedadi.github.io/ninacarducci/",
     description:"Site web pour Nina Carducci, photographe professionnelle, dans le but de présenter ses réalisations et ses services.",
   },
   {
@@ -75,9 +75,9 @@ const items = [
     client: "Envato",
     langages: "HTML, CSS, Javascript",
     previewLink: "https://github.com/bahmanedadi/Projet11_ArgentBank",
-    description:"Argent Bank est une nouvelle banque en ligne souhaitant fournir à ses utilisateurs un tableau de bord convivial",
+    description:"Argent Bank est une nouvelle banque en ligne qui souhaite percer dans le secteur bancaire. J'ai travaillé sur la mise en place du tableau de bord et le système d'authentification des utilisateurs ainsi que sur la conception de nouvelles routes API pour la future gestion des comptes",
   },
-  
+   
 ];
 
 const Portfolio = () => {
