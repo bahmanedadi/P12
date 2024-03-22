@@ -12,7 +12,7 @@ const Home = ({ authorImage }) => {
         {/* Desktop Image Starts */}
         <img
           className="hidden from-lg:block fixed h-[calc(100vh-80px)] left-40  rounded-30 shadow-1 object-cover my-custom-class"
-          src={authorImage ? authorImage : "/assets/img/demo/dark.webp"}
+          src={authorImage ? authorImage : ""}
           alt=""
         />
 
@@ -21,7 +21,7 @@ const Home = ({ authorImage }) => {
           <div className="mx-auto max-w-550 custom-md-1:max-w-450">
             {/* Mobile Image Starts */}
             <img
-              src="/assets/img/dark-mobile.webp"
+              src="/assets/img/dark-img-mobile.jpg"
               className="hidden down-lg:block xs:!hidden rounded-full w-270 h-270 mx-auto mb-25 border-4 border-solid border-black-3"
               alt="my picture"
             />

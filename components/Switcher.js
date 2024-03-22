@@ -11,7 +11,7 @@ const colors = [
   { id: 7, name: "yellowgreen", img: "yellowgreen" },
   { id: 8, name: "orange", img: "orange" },
   { id: 9, name: "green", img: "green" },
-  { id: 10, name: "darkseagreen", img: "darkseagreen" },
+  
 
  
 ];
